@@ -9,13 +9,12 @@
   "orientation": "portrait",
   "background_color": "#222222",
   "theme_color": "#81b217",
-  "dir": "ltr",
   "icons": [
-    {
-      "src": "/assets/l1.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+      {
+        "src": "/assets/l1.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
   ]
 }
