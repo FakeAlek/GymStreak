@@ -1,0 +1,131 @@
+@import url('assets/ClashDisplay/Fonts/WEB/css/clash-display.css');
+
+* {
+    font-family: 'ClashDisplay-Regular';
+}
+
+:root {
+    --color: #fff;
+    --color1: #81b217;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+    color: var(--color);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333333;
+    border-radius: 20px;
+    padding: 5px 50px;
+}
+
+h1 {
+    color: var(--color);
+    font-size: 64px;
+}
+
+.streakNum {
+    display: flex;
+    flex-direction: column;
+}
+
+.num {
+    font-size: 64px;
+    color: var(--color1);
+}
+
+.text {
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+.streakBTN {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    margin: 40px;
+}
+
+.streakBTN button {
+    border: none;
+    outline: none;
+    background-color: var(--color1);
+    color: var(--color);
+    border-radius: 10px;
+    font-size: 30px;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.streakBTN button:hover {
+    background-color: var(--color);
+    color: var(--color1);
+}
+
+/* responsive Design with ChatGPT */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    .num {
+        font-size: 48px;
+    }
+
+    .text {
+        font-size: 28px;
+    }
+
+    .streakBTN {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .streakBTN button {
+        width: 80%;
+        font-size: 24px;
+    }
+
+    main {
+        width: 90%;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .num {
+        font-size: 36px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .streakBTN button {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
