@@ -6,23 +6,30 @@
     <title>GymStreak</title>
     <link rel="icon" type="image/x-icon" href="./assets/l2.ico">
     <link rel="stylesheet" href="style.css">
-    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="https://fakealek.github.io/gunesCSS/utilities/positions.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="manifest" href="/manifest.json">
 </head>
-<body>
+<body class="debug">
+    <button class="colorMode topRight" onclick="switchColor()"><ion-icon id="colorModeIcon" name="sunny"></ion-icon></button>
+
     <main>
         <h1>GymStreak</h1>
         
         <div class="streakNum">
             <span class="num" id="num">22</span>
-            <span class="text">Streak-Tage!</span>
+            <span class="text">Streak-Days!</span>
         </div>
 
         <div class="streakBTN">
-            <button class="streakUpBTN" onclick="up()">UP</button>
+            <button class="streakUpBTN" id="streakUpBTN" onclick="up()">UP</button>
             <button class="streakDownBTN" onclick="down()">DOWN</button>
         </div>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
     <script src="./js/counter.js"></script>
+    <script src="./js/colorMode.js"></script>
 </body>
 </html>

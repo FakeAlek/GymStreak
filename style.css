@@ -4,9 +4,15 @@
     font-family: 'ClashDisplay-Regular';
 }
 
+/* .debug * {
+    outline: 1px dashed lime !important;
+    background-color: rgba(255, 0, 0, 0.05) !important;
+} */
+
 :root {
     --color: #fff;
     --color1: #81b217;
+    --color1-darker: #678e12;
 }
 
 body {
@@ -19,6 +25,37 @@ body {
     padding: 0;
     background-color: #222222;
     color: var(--color);
+}
+
+.white-mode {
+    background-color: #d8d8d8;
+}
+
+.dark-mode {
+    background-color: #222222;
+}
+
+.colorMode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    color: var(--color);
+    background-color: var(--color1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.colorMode:hover {
+    background-color: var(--color1-darker);
+}
+
+.colorMode ion-icon {
+    font-size: 30px;
 }
 
 main {
@@ -67,15 +104,13 @@ h1 {
     font-size: 30px;
     width: 150px;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s;
 }
 
 .streakBTN button:hover {
-    background-color: var(--color);
-    color: var(--color1);
+    background-color: var(--color1-darker);
 }
 
-/* responsive Design with ChatGPT */
 @media (max-width: 768px) {
     h1 {
         font-size: 48px;
@@ -108,21 +143,26 @@ h1 {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 36px;
+        font-size: 50px;
         text-align: center;
     }
 
+    .streakNum {
+        /* width: 100%; */
+    }
+
     .num {
-        font-size: 36px;
+        font-size: 45px;
     }
 
     .text {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .streakBTN button {
         font-size: 20px;
         width: 100%;
+        height: 50px;
     }
 
     main {
