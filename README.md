@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/FakeAlek/GymStreak/blob/main/assets/l1.png" width="150" alt="gymStreak Logo" />
   <h1 align="center">GymStreak</h1>
-  <p align="center">Tracke deine täglichen Fitness-Streaks und bleibe motiviert! 🚀</p>
+  <p align="center">Track your daily fitness streaks and stay motivated! 🚀</p>
 </p>
 
 <p align="center">
@@ -14,13 +14,13 @@
 
 ## 🔧 Features
 
-- ✅ Tages-Streak-Zähler
-- 📱 Mobile First Design (responsive)
-- 💾 Speicherung im LocalStorage
+- ✅ Daily streak counter
+- 📱 Mobile-first design (responsive)
+- 💾 Storage in LocalStorage
 
 ---
 
-## 📸 Vorschau
+## 📸 Preview
 
 <p align="center">
   <img src="https://github.com/FakeAlek/GymStreak/blob/main/assets/Screenshot.png" width="600" alt="Demo von gymStreak" />
@@ -31,9 +31,9 @@
 ## 🚀 Installation
 
 ```bash
-# Repository klonen
+# Clone repository
 git clone https://github.com/FakeAlek/GymStreak.git
 cd GymStreak
 
-# Abhängigkeiten installieren
-npm install # oder pip install -r requirements.txt für Backend
+# Install dependencies
+npm install # or pip install -r requirements.txt for backend
