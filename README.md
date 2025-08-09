@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT">
   <img src="https://img.shields.io/badge/language-javascript-yellow.svg" alt="Javascript">
-  <img src="https://img.shields.io/badge/version-1.0.0v-green.svg" alt="Version">
+  <img src="https://img.shields.io/badge/version-1.1.0v-green.svg" alt="Version">
 </p>
 
 ---
