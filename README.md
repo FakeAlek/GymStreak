@@ -23,7 +23,7 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="https://github.com/FakeAlek/GymStreak/blob/main/assets/Screenshot.png" width="600" alt="Demo von gymStreak" />
+  <img src="https://github.com/FakeAlek/gymstreak/blob/main/assets/Screenshot.png" width="600" alt="Demo von gymStreak" />
 </p>
 
 ---
@@ -32,8 +32,5 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/FakeAlek/GymStreak.git
-cd GymStreak
-
-# Install dependencies
-npm install # or pip install -r requirements.txt for backend
+git clone https://github.com/FakeAlek/gymstreak.git
+cd gymstreak
